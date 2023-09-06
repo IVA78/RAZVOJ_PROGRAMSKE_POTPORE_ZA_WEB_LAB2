@@ -1,0 +1,147 @@
+@media all and (max-width: 1024px) {
+  .grid-container {
+    grid-template-areas:
+      'header1 header1'
+      'header2 header2'
+      'aside main'
+      'aside main';
+
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: auto 1fr;
+  }
+
+  .grid-container {
+    display: grid;
+    background-color: rgb(241, 222, 201);
+    font-size: 3vw; /* Promenjena merna jedinica */
+    height: 100%;
+    width: 100vw;
+  }
+
+  .grid-container > div {
+    border: solid black;
+    margin: 5px;
+    background-color: rgb(241, 222, 201);
+    border: 1px solid grey;
+  }
+
+
+  .currCaregory {
+    font-size: 100%;
+    color: #333;
+    font-weight: bolder;
+    margin-left: 5%;
+    margin-bottom: 3%;
+    object-fit: cover;
+    width: 50%;
+    height: auto;
+  }
+
+
+  .header2 {
+    grid-area: header2;
+    position: relative;
+    object-fit: cover;
+    width: 100vw;
+    height: 80vw;
+  }
+
+  #welcome {
+    position: absolute;
+    top: -2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 130%;
+    z-index: 1;
+    background-color: rgb(200, 182, 166);
+    padding: 10px;
+  }
+
+  .img-representation {
+    background-size: cover;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 0;
+  }
+
+  .aside {
+    grid-area: aside;
+    grid-template-columns: 1fr;
+    display: grid;
+    background-color: rgb(141, 123, 104);
+  }
+
+  .aside1,
+  .aside2 {
+    margin: 25px;
+    list-style-type: none;
+    align-items: center;
+    font-size: 120%;
+
+      text-align: center;
+      position: relative;
+    }
+    
+    
+    .aside1 li:hover, .aside2 li:hover {
+     background-color:rgb(164, 144, 124); 
+    }
+    
+    .aside1 hr , .aside2 hr{
+      overflow-wrap: break-word;
+    }
+    
+    #categoriesList {
+     list-style-type: none; 
+     padding: 0; 
+    }
+
+    .productName{
+      display: flex; 
+      justify-content: center; 
+      align-items: center;
+      font-size: 4vw;
+      text-align: center;
+      position: absolute;
+      z-index: 1;
+      top: 70%; 
+      left: 50%; 
+      transform: translate(-50%, -50%);
+      background-color: rgb(200, 182, 166);
+      min-width: 60%;
+      min-height: 15%;
+       
+   }
+
+   .quantity{
+      background-color: rgb(200, 182, 166);
+      display: flex; 
+      justify-content: center; 
+      align-items: center;
+      font-size: 5vw;
+      position: absolute;
+      z-index: 1;
+      top: .5vh; 
+      left: 50%; 
+      transform: translate(-50%, -50%);
+      min-width: 10%;
+      min-height: 10%; 
+    
+   }
+
+   .bakery-image {
+      flex: 1;
+      position: relative;
+      z-index: 0;
+      float: left;
+      width: 15vw;
+      height: 20vw;
+      margin: 0 auto;
+   }
+    
+ 
+    
+ }

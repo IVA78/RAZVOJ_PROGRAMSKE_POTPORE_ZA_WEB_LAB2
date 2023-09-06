@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">  
+<head>
+   
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Rustic Breads and Treats</title>
+
+   <link rel="stylesheet" href="styles/home.css">
+   <link rel="stylesheet" href="styles/mobile.css">
+   <link rel="stylesheet" href="styles/products.css">
+   <link rel="stylesheet" href="styles/header.css">
+
+   <script src="../public/scripts/loadCategories.js"></script>
+   <script src="../public/scripts/loadProducts.js"></script>
+   
+   <script src="https://kit.fontawesome.com/b2df157145.js" crossorigin="anonymous"></script>
+
+   <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+</head>
+<body>
+
+   <div class="grid-container"> 
+      
+      <%- include(`partials/header`); %>
+        
+      </div>
+      <div class="header2">
+       <p id="welcome">Welcome to Rustic Breads and Treats</p>
+         <img src="images/Representation.jpg" alt="representation" class="img-representation">
+      </div>
+      <div class="aside">
+
+         <div class="aside1">
+            <h3>Categories</h3>
+            <!--Ovdje ce se izgenerirati kategorije-->
+            <ul id="categoriesList"></ul>
+         </div>
+         
+
+         <div class="aside2">
+            <h4>Want more information?</h4><hr>
+            <li>Kontakt</li><hr>
+            <li>Newsletter</li><hr>
+            <li>Pretplati se</li><hr>
+         </div>
+         
+      </div>
+      <div id='mainDiv' class="main">
+            <!--Ovdje ce se izgenerirati proizvodi-->
+      </div>
+
+      </div>
+   </div>
+
+   
+   
+</body>
+</html>

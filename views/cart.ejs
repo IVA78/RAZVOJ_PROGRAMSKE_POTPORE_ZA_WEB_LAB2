@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Cart</title>
+
+   <link rel="stylesheet" href="styles/cart.css">
+   <link rel="stylesheet" href="styles/header.css">
+
+   <script src="https://kit.fontawesome.com/b2df157145.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+   <div class="grid-container">
+
+      <%- include(`partials/header`); %>
+
+      </div>
+
+      <div id="cartWindow"class="cart">
+         
+         <div id="boughtProducts" class="ProductDisplay">
+            <!--Ovdje ce se izgenerirati kupljeni proizvodi-->
+
+         </div>
+      </div>
+      <div class="footer">
+         <!--Referenca za povratak na glavnu stranicu-->
+         <a id = "backToHome"  href="/" >Back to home page</a>
+      </div>
+   </div>
+   
+</body>
+
+   <script src="../public/scripts/loadCart.js"></script>
+   
+</html>

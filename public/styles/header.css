@@ -1,0 +1,42 @@
+.header1{ 
+   grid-area: header1;
+   display: flex;
+   justify-content: space-between;
+   flex-flow: wrap;
+   align-items: center;
+   height: 10vw;
+   width: 100vw; 
+   background-color: rgb(241, 222, 201);
+}
+
+.img-logo{
+   max-width: 10vw;
+   max-height: 10vw;
+   margin-left: .5vw;  
+   margin-bottom: .5vw;
+   margin-top: .5vw;  
+
+ }
+
+ .icons{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 5vw;
+   margin: 2vw;
+ }
+ 
+ .icons a{
+   padding-right: 2vw;
+   display: inline-block;
+   font-size: 5vw;
+   color: rgb(141, 123, 104)
+ }
+ 
+ #suma{
+   padding-right: 2vw;
+   padding-bottom: 30%;
+   display: inline-block;
+   font-size: 5vw;
+   color: rgb(141, 123, 104) 
+ }

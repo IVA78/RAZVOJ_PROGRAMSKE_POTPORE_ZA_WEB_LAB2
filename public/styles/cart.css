@@ -1,0 +1,153 @@
+@font-face {
+   font-family: 'Roboto Slab';
+   src: url('fonts/RobotoSlab-Regular.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+ }
+
+html{
+   height: 100%;
+ }
+
+ body {
+   height: 100%;
+ }
+
+ .header1{ 
+  grid-area: header1;
+  display: flex;
+  justify-content: space-between;
+  flex-flow: wrap;
+  align-items: center;
+  font-size: 5rem; 
+}
+
+.img-logo{
+  max-width: 120%;
+  margin-left: 50px;  
+  margin-bottom: 15px;
+  margin-top: 15px;
+  
+}
+
+.icons{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   min-height: 5vh;
+ }
+ 
+ .icons a {
+   padding-right: 50px; 
+   display: inline-block;
+   font-size: 5rem;
+   color: #8a4717 
+ }
+
+.cart{
+  display: grid;
+  grid-template-rows: auto auto;
+  height: 100vw;
+  justify-content: center;  
+}
+
+
+.productName{
+   font-size: 2.5vw;
+   text-align: center;
+ }
+
+ #quantity_id{
+   font-size: 2vw;
+ }
+
+ .ProductDisplay{
+  display: grid;
+  grid-template-columns: auto auto auto;
+ }
+
+
+
+ .buttonPlus, .buttonMinus, .quantity{
+  font-size: 2vw;
+  width: 2vw;
+  margin: .5vw;
+  text-align: center;
+  background-color: #eee;
+ }
+
+ .PlusMinusContainer{
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-content: center;
+ }
+
+
+ .emptyMessage{
+  font-size: 2vw;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .itemImage{
+  height: 15vw;
+  width: 15vw;
+  padding: 2vw;
+  background-color: rgb(200, 182, 166);
+ }
+
+ .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vw;
+}
+
+#backToHome {
+  text-decoration: none;
+  font-size: 2vw;
+  color: #333;
+}
+
+#element_id{
+  display: grid;
+  margin: 2vw; 
+  grid-template-rows: auto auto auto auto;
+  align-items: center;
+  background-color: rgb(241, 222, 201);
+  border: 1px solid black;
+  border-radius: 5%;
+  height: 45vw;
+  width: 25vw;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.cartWindow{
+  justify-content: space-between;
+  align-items: center;
+  height: 100vw;
+}
+
+#quantity_id{
+ justify-content: center;
+ background-color: #8a4717;
+  font-size: 2vw;
+  height: 3vw;
+  width: 3vw;
+  background-color: rgb(200, 182, 166);
+  padding: 5px;
+  border-radius: 50%;
+  padding-left: 3vw;
+  
+}
+
+
+
+
+
+
+
+
+
