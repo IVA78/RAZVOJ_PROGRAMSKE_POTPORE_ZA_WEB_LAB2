@@ -5,11 +5,11 @@ Opis predmeta Sadržaj predmeta obuhvaća osnove web-arhitektura, protokola i st
 
 Teme obrađene na predmetu:
 
-HTML
-CSS
-JavaScript
-HTTP
-Node JS + Postgres
-Node JS MVC
-Sjednice
-Web server
+1. HTML
+2. CSS
+3. JavaScript
+4. HTTP
+5. Node JS + Postgres
+6. Node JS MVC
+7. Sjednice
+8. Web server
